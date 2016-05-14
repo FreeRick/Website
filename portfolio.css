@@ -7,7 +7,7 @@ ul {
 }
 
 a {
-  text-decoration:
+  text-decoration: none;
 }
 
 #me {
@@ -15,8 +15,8 @@ a {
 }
 
 div #topbox {
-  margin: 0;
-  padding: 0;
+  margin: 10%;
+  padding: 10%;
   line-height: 1.2em;
   font-size: 38px;
   border: 10px;
@@ -26,14 +26,42 @@ div #topbox {
   /*height: 100%;*/
 }
 
+*{
+    color: antiquewhite;
+}
+
+#socialnet div{
+  margin: 10%;
+  padding: 10%;
+  line-height: 1.2em;
+  border: 10px;
+  border-style: groove;
+  border-width: thin;
+  text-align: center;
+}
+
+#mee {
+    font-size: 30px;
+}
 body {
-  background-image: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg)
+  background-image: url(http://i.imgur.com/ECtInPL.jpg)
 }
 
 
 h5 {
-  margin: 0;
-  padding: 0;
+  margin: 10%;
+  padding: 10%;
+  line-height: 1.2em;
+  font-size: 38px;
+  border: 10px;
+  border-style: groove;
+  border-width: thin;
+  text-align: center;
+}
+
+h3 {
+  margin: 10%;
+  padding: 10%;
   line-height: 1.2em;
   font-size: 38px;
   border: 10px;
@@ -50,6 +78,10 @@ div #developerit {
   font-family: sans-serif;
   border: 30em;
   justify-content: space-around;
+}
+
+#devcontainer h1 {
+    font-size: 50px;
 }
 
 /*#socialnet {
@@ -69,6 +101,16 @@ div #developerit {
   border: 50px;
 }*/
 
+#streamsearch {
+    height: 700%;
+    width: 100%;
+}
+
+#pictureme {
+    height: 50%;
+    width: 50%;
+}
+
 #projects: {
   /*display: flex;
   text-align: center;
@@ -76,6 +118,7 @@ div #developerit {
   /*border-image: "https://g.twimg.com/Twitter_logo_blue.png"(ge)
   border-color: black;
   /*border-radius: 4px;*/
+/*
   display: flex;
 width: auto;
  border: solid black;
@@ -86,6 +129,18 @@ width: auto;
  font-family: arial;
  font-weight: bold;
  font-size: 105%;
+*/
+}
+
+#projects{
+  margin: 10%;
+  padding: 10%;
+  line-height: 1.2em;
+  font-size: 38px;
+  border: 10px;
+  border-style: groove;
+  border-width: thin;
+  text-align: center;
 }
 
 
@@ -99,4 +154,9 @@ width: auto;
   border-style: groove;
   width: 50px;
   height: 50px;
+}
+
+
+#topbox h2 {
+    font-size: 40%;
 }
